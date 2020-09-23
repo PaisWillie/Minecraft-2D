@@ -1,0 +1,352 @@
+*** ENVIRONMENT CRASH ***
+
+Date: Nov 14 2017 10:08 AM
+
+File Name: C:\Program Files\Open Turing\turing.exe
+Version: 1.0.1  [11]
+File Size: 4573696
+File Date: Jun 11 2012 11:35 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    MIO_Init_Free called
+    Debugger Notify Init Run
+    Create standard input/output window
+    MIOWin_CreateWindowFromAttribs (No Title)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+  CMD: WM_ACTIVATE (W)
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 -2
+    Object Allocated 11 -1
+    Create standard error window
+    MIOWin_CreateWindowFromAttribs (Standard Error)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner text win
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 0
+    Create window (Attr: graphics:1900;998,offscreenonly)
+    MIOWin_CreateWindowFromAttribs (No Title)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+    MIOWin_InitializeWindow: Window initialized
+    Run Window Added 220358 
+    Object Allocated 11 1
+    Object Allocated 22 7001
+    Object Allocated 22 7002
+    Object Allocated 22 7003
+    Object Allocated 22 7004
+    Object Allocated 22 7005
+    Object Allocated 22 7006
+    Object Allocated 22 7007
+    Object Allocated 22 7008
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_CLOSE (W)
+    Set Turing Values - Window: 2001be - fileno: 0 - sizeptr: 0 - where: 53
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_DESTROY (W)
+  CMD: WM_DESTROY (D)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 3976490 - L: 190 - C: 71
+    Text - sz:193:5733 - slFr:188:7:5689 - slTo:188:7:5689 - nlA:0
+    Line Starts: 190:5691 191:5700 192:5701 193:5733
+    Set Selection (2) - sz:193:5733 - slFr:5699 - slTo:5699 - nlA:0
+    Line Starts: 190:5691 191:5700 192:5701 193:5733
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 3976490 - L: 190 - C: 71 (x1)
+    Text - sz:193:5733 - slFr:190:8:5699 - slTo:190:8:5699 - nlA:0
+    Line Starts: 190:5691 191:5700 192:5701 193:5733
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_RUN
+    Run (1) - Window: 30ae2 - Ex: 1 - Args: 0 - Step: 0
+    Debugger Notify Finalize Run
+    Object Freed 7001
+    Object Freed 7002
+    Object Freed 7003
+    Object Freed 7004
+    Object Freed 7005
+    Object Freed 7006
+    Object Freed 7007
+    Object Freed 7008
+    Object Freed -1
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Turing Language Freeing Memory
+    MIO_Init_Free called
+    Notify All Run Windows Closed
+    Object Freed 1
+    Object Freed 0
+    Debugger Notify Init Run
+    Deallocating object 7008 (free=1)
+    Deallocating object 7007 (free=1)
+    Deallocating object 7006 (free=1)
+    Deallocating object 7005 (free=1)
+    Deallocating object 7004 (free=1)
+    Deallocating object 7003 (free=1)
+    Deallocating object 7002 (free=1)
+    Deallocating object 7001 (free=1)
+    Deallocating object 1 (free=1)
+    Deallocating object 0 (free=1)
+    Deallocating object -1 (free=1)
+    Deallocating object -2 (free=1)
+    MIO_Init_Run called
+    MIO_Init_Free called
+    Debugger Notify Init Run
+    Create standard input/output window
+    MIOWin_CreateWindowFromAttribs (No Title)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+  CMD: WM_ACTIVATE (W)
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 -2
+    Object Allocated 11 -1
+    Create standard error window
+    MIOWin_CreateWindowFromAttribs (Standard Error)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner text win
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 0
+  CMD: WM_ACTIVATE (W)
+    Create window (Attr: graphics:1900;998,offscreenonly)
+    MIOWin_CreateWindowFromAttribs (No Title)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+  CMD: WM_ACTIVATE (W)
+    MIOWin_InitializeWindow: Window initialized
+    Run Window Added 100b3e 
+    Object Allocated 11 1
+    Debugger Notify Finalize Run
+    Object Freed -1
+    Find Next Error (1) - Text: 30ae2 - Activate: 1
+  CMD: WM_ACTIVATE (W)
+    Set Selection (1) - Text: 3976490 - L: 184 - C: 4
+    Text - sz:193:5733 - slFr:190:8:5699 - slTo:190:8:5699 - nlA:0
+    Line Starts: 190:5691 191:5700 192:5701 193:5733
+    Set Selection (2) - sz:193:5733 - slFr:5600 - slTo:5600 - nlA:0
+    Line Starts: 190:5691 191:5700 192:5701 193:5733
+    Goto Error - sz:193:5733 - slFr:5600 - slTo:5600 - nlA:0
+  CMD: WM_ACTIVATE (W)
+    Notify All Run Windows Closed
+  CMD: WM_ACTIVATE (W)
+    Object Freed 1
+  CMD: WM_CLOSE (W)
+    Set Turing Values - Window: 30ae2 - fileno: 0 - sizeptr: 0 - where: 53
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_DESTROY (W)
+  CMD: WM_DESTROY (D)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 1b371b8 - L: 202 - C: 33
+    Text - sz:237:7309 - slFr:203:0:6306 - slTo:203:0:6306 - nlA:0
+    Line Starts: 234:7306 235:7307 236:7308 237:7309
+    Set Selection (2) - sz:237:7309 - slFr:6305 - slTo:6305 - nlA:0
+    Line Starts: 234:7306 235:7307 236:7308 237:7309
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 1b371b8 - L: 202 - C: 33 (x1)
+    Text - sz:237:7309 - slFr:202:27:6305 - slTo:202:27:6305 - nlA:0
+    Line Starts: 234:7306 235:7307 236:7308 237:7309
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 1b371b8 - L: 200 - C: 33
+    Text - sz:237:7309 - slFr:6305 - slTo:6305 - nlA:0
+    Line Starts: 234:7306 235:7307 236:7308 237:7309
+    Set Selection (2) - sz:237:7309 - slFr:6276 - slTo:6276 - nlA:0
+    Line Starts: 234:7306 235:7307 236:7308 237:7309
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 1b371b8 - L: 200 - C: 33 (x1)
+    Text - sz:237:7309 - slFr:200:28:6276 - slTo:200:28:6276 - nlA:0
+    Line Starts: 234:7306 235:7307 236:7308 237:7309
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_SAVE_FILE
+    Save File (1) - Window: 802e4 - SaveAs: 0 - Sel: 0 - fileno: 1 - sizeptr: 64b768
+
+
+Registers
+  EAX=0000010B  EBX=00000002  ECX=00000000  EDX=7FFFFFFF  ESI=00000073
+  EDI=00000007  EBP=0012A200  ESP=00129DA0  EIP=7772947C  FLG=00010206
+  CS=001B  DS=0023  SS=0023  ES=0023  FS=003B  GS=0000
+
+Not enough space for modules.
+
+------------------------------------------------------
+*** ENVIRONMENT CRASH ***
+
+Date: Nov 23 2017 10:23 AM
+
+File Name: C:\Program Files\Open Turing\turing.exe
+Version: 1.0.1  [11]
+File Size: 4573696
+File Date: Jun 11 2012 11:35 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+  CMD: WM_CHAR [w] (D) (x1) [w]
+    Keystroke - Text: 1c97258 - ch: 119
+    Text - sz:464:16455 - slFr:58:4:2573 - slTo:58:16:2585 - nlA:0
+    Line Starts: 461:16408 462:16411 463:16451 464:16455
+    Delete Selection (1) - Text: 1c97258
+    Text - sz:464:16455 - slFr:58:4:2573 - slTo:58:16:2585 - nlA:0
+    Line Starts: 461:16408 462:16411 463:16451 464:16455
+    Delete Selection (2) - From line: 58 - From col: 4 - To line: 58 - To col: 16
+    Delete Selection (3) - sz:464:16443 - slFr:2573 - slTo:2573 - nlA:0
+    Line Starts: 461:16396 462:16399 463:16439 464:16443
+    Keystroke (2) - sz:464:16444 - slFr:2574 - slTo:2574 - nlA:0
+    Line Starts: 461:16397 462:16400 463:16440 464:16444
+  CMD: WM_CHAR [ ] (D) (x8) [asdKeys ]
+    Keystroke - Text: 1c97258 - ch: 32
+    Text - sz:464:16451 - slFr:58:12:2581 - slTo:58:12:2581 - nlA:0
+    Line Starts: 461:16404 462:16407 463:16447 464:16451
+    Keystroke (2) - sz:464:16452 - slFr:2582 - slTo:2582 - nlA:0
+    Line Starts: 461:16405 462:16408 463:16448 464:16452
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 1c97258 - Select: 0
+    Text - sz:464:16452 - slFr:58:13:2582 - slTo:58:13:2582 - nlA:0
+    Line Starts: 461:16405 462:16408 463:16448 464:16452
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 1c97258 - Select: 0
+    Text - sz:464:16452 - slFr:58:15:2584 - slTo:58:15:2584 - nlA:0
+    Line Starts: 461:16405 462:16408 463:16448 464:16452
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 1c97258 - Select: 0
+    Text - sz:464:16452 - slFr:58:19:2588 - slTo:58:19:2588 - nlA:0
+    Line Starts: 461:16405 462:16408 463:16448 464:16452
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 1c97258 - Select: 0
+    Text - sz:464:16452 - slFr:58:22:2591 - slTo:58:22:2591 - nlA:0
+    Line Starts: 461:16405 462:16408 463:16448 464:16452
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 1c97258 - Select: 0
+    Text - sz:464:16452 - slFr:58:25:2594 - slTo:58:25:2594 - nlA:0
+    Line Starts: 461:16405 462:16408 463:16448 464:16452
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 1c97258 - Select: 0
+    Text - sz:464:16452 - slFr:58:26:2595 - slTo:58:26:2595 - nlA:0
+    Line Starts: 461:16405 462:16408 463:16448 464:16452
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 1c97258 - Select: 0
+    Text - sz:464:16452 - slFr:58:34:2603 - slTo:58:34:2603 - nlA:0
+    Line Starts: 461:16405 462:16408 463:16448 464:16452
+  CMD: COMMAND_MOVE/SELECT_WORD_NEXT
+    Move Word Next - Text: 1c97258 - Select: 1
+    Text - sz:464:16452 - slFr:58:36:2605 - slTo:58:36:2605 - nlA:0
+    Line Starts: 461:16405 462:16408 463:16448 464:16452
+  CMD: WM_CHAR [w] (D) (x1) [w]
+    Keystroke - Text: 1c97258 - ch: 119
+    Text - sz:464:16452 - slFr:58:36:2605 - slTo:58:48:2617 - nlA:0
+    Line Starts: 461:16405 462:16408 463:16448 464:16452
+    Delete Selection (1) - Text: 1c97258
+    Text - sz:464:16452 - slFr:58:36:2605 - slTo:58:48:2617 - nlA:0
+    Line Starts: 461:16405 462:16408 463:16448 464:16452
+    Delete Selection (2) - From line: 58 - From col: 36 - To line: 58 - To col: 48
+    Delete Selection (3) - sz:464:16440 - slFr:2605 - slTo:2605 - nlA:0
+    Line Starts: 461:16393 462:16396 463:16436 464:16440
+    Keystroke (2) - sz:464:16441 - slFr:2606 - slTo:2606 - nlA:0
+    Line Starts: 461:16394 462:16397 463:16437 464:16441
+  CMD: WM_CHAR [d] (D) (x3) [asd]
+    Keystroke - Text: 1c97258 - ch: 100
+    Text - sz:464:16443 - slFr:58:39:2608 - slTo:58:39:2608 - nlA:0
+    Line Starts: 461:16396 462:16399 463:16439 464:16443
+    Keystroke (2) - sz:464:16444 - slFr:2609 - slTo:2609 - nlA:0
+    Line Starts: 461:16397 462:16400 463:16440 464:16444
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_SAVE_FILE
+    Save File (1) - Window: 30306 - SaveAs: 0 - Sel: 0 - fileno: 1 - sizeptr: 64b768
+    Save File (2) - name: H:\Profile\Desktop\ICS201\Programming\MineCraft Turing Edition\2D Minecraft Dev v8\2D Minecraft.t - fileno: 1 - sizeptr: 64b768
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_RUN
+    Run (1) - Window: 30306 - Ex: 1 - Args: 0 - Step: 0
+    Debugger Notify Finalize Run
+    Object Freed 7001
+    Object Freed 7002
+    Object Freed 7003
+    Object Freed 7004
+    Object Freed 7005
+    Object Freed 7006
+    Object Freed 7007
+    Object Freed 7008
+    Object Freed 7009
+    Object Freed 7010
+    Object Freed 7011
+    Object Freed 7012
+    Object Freed 7013
+    Object Freed -1
+    Turing Language Freeing Memory
+    MIO_Init_Free called
+    Notify All Run Windows Closed
+    Object Freed 1
+    Object Freed 0
+    Debugger Notify Init Run
+    Deallocating object 7013 (free=1)
+    Deallocating object 7012 (free=1)
+    Deallocating object 7011 (free=1)
+    Deallocating object 7010 (free=1)
+    Deallocating object 7009 (free=1)
+    Deallocating object 7008 (free=1)
+    Deallocating object 7007 (free=1)
+    Deallocating object 7006 (free=1)
+    Deallocating object 7005 (free=1)
+    Deallocating object 7004 (free=1)
+    Deallocating object 7003 (free=1)
+    Deallocating object 7002 (free=1)
+    Deallocating object 7001 (free=1)
+    Deallocating object 1 (free=1)
+    Deallocating object 0 (free=1)
+    Deallocating object -1 (free=1)
+    Deallocating object -2 (free=1)
+    MIO_Init_Run called
+    MIO_Init_Free called
+    Debugger Notify Init Run
+    Create standard input/output window
+    MIOWin_CreateWindowFromAttribs (No Title)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+  CMD: WM_ACTIVATE (W)
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 -2
+    Object Allocated 11 -1
+    Create standard error window
+    MIOWin_CreateWindowFromAttribs (Standard Error)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner text win
+    MIOWin_InitializeWindow: Window initialized
+    Object Allocated 11 0
+    Create window (Attr: graphics:1900;998,offscreenonly)
+    MIOWin_CreateWindowFromAttribs (No Title)
+    MIOWin_InitializeWindow: Create button bar
+    MIOWin_InitializeWindow: Create inner grph win
+    MIOWin_InitializeWindow: Window initialized
+    Run Window Added 1a0aee 
+    Object Allocated 11 1
+    Object Allocated 22 7001
+    Object Allocated 22 7002
+    Object Allocated 22 7003
+    Object Allocated 22 7004
+    Object Allocated 22 7005
+    Object Allocated 22 7006
+    Object Allocated 22 7007
+    Object Allocated 22 7008
+    Object Allocated 22 7009
+    Object Allocated 22 7010
+    Object Allocated 22 7011
+    Object Allocated 22 7012
+    Object Allocated 22 7013
+
+
+Registers
+  EAX=0363EB66  EBX=00127EF4  ECX=038E8FFE  EDX=00000000  ESI=0000004D
+  EDI=00000000  EBP=00126AA8  ESP=001267F4  EIP=004ABB2F  FLG=00010206
+  CS=001B  DS=0023  SS=0023  ES=0023  FS=003B  GS=0000
+
+Not enough space for modules.
+
+------------------------------------------------------
