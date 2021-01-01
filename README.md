@@ -3,7 +3,7 @@ A 2D platformer sandbox fan-made game based on [Minecraft](https://www.minecraft
 
 <img src="README%20Assets/Main%20Menu.png" alt="Minecraft 2D main menu" width="400"/>
 
-This game was originally designed for my 10th grade academic final project, where it utilizes condition statements, looping, variables, graphics, and other programming aspects.
+This game was originally designed for my highschool's ICS3U1 final project, where it utilizes condition statements, looping, variables, graphics, and other programming aspects.
 
 ## 📑 Contents
 
